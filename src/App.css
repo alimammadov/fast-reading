@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.article-analyzer-container {
+  font-family: 'Lato', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.article-input {
+  font-family: 'Lato', sans-serif;
+  width: 100%;
+  height: 150px;
+  margin-bottom: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.analyze-button {
+  font-family: 'Lato', sans-serif;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
 }
+
+.result-display {
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Fira Sans,Ubuntu,Oxygen,Oxygen Sans,Cantarell,Droid Sans,Apple Color Emoji,Segoe UI Emoji,Segoe UI Emoji,Segoe UI Symbol,Lucida Grande,Helvetica,Arial,sans-serif;
+  /* margin-top: 20px;
+  font-size: 15px;
+  line-height: 1.2rem; */
+  word-wrap: break-word;
+    white-space: pre-line;
+    -webkit-font-smoothing: antialiased;
+
+      letter-spacing: -0.003em;
+
+      line-height: 32px;
+ 
+      margin-top: 2.14em;
+
+      font-size: 20px;
+  }
+    

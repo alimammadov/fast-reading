@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './style.css'; // Import your custom styles
+import './App.css'; // Import your custom styles
 
 const App = () => {
   const [article, setArticle] = useState('');
